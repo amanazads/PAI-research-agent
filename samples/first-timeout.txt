@@ -1,0 +1,40 @@
+Demo mode: first-timeout
+Goal: Compare three leading open-source vector databases to determine the best fit for a RAG startup based on performance, scalability, and ease of integration.
+Search: Milvus vs Qdrant vs Chroma vector database benchmark RAG
+  4 results
+Search: open source vector database comparison official documentation performance
+  4 results
+Selected: Vector Database Benchmark: 7 Open-Source Engines for RAG (https://aimultiple.com/open-source-vector-databases)
+Fetch failed for https://aimultiple.com/open-source-vector-databases: Simulated page timeout.
+Selected: "Chroma vs Qdrant vs Milvus: Which Vector Database Fits Your Stage" (https://resources.rework.com/tools/ai-data-infra/chroma-vs-qdrant-vs-milvus)
+Fetch succeeded: S1 (8000 characters)
+Selected: Best Vector Databases 2026: Pinecone vs Weaviate vs Milvus (https://iternal.ai/insights/best-vector-databases-2026)
+Fetch succeeded: S2 (8000 characters)
+Selected: Qdrant vs Milvus: Which Vector DB for Production RAG? (https://www.kunalganglani.com/blog/milvus-vs-qdrant)
+Fetch succeeded: S3 (8000 characters)
+Writing answer from 3 retrieved pages.
+
+Question: Compare three open-source vector databases for a RAG startup
+
+Short answer: For a RAG startup, Chroma is ideal for prototyping and small production, Qdrant is the best default for lean production RAG with high-selectivity filtering, and Milvus is suited for massive-scale enterprise workloads (100M+ vectors) requiring distributed Kubernetes architecture.
+
+Confidence: high
+
+Key findings:
+- Chroma is best suited for prototyping through small production, offering a Python-native embedded mode with a single container footprint. [S1]
+- Qdrant is written in Rust, handles high-selectivity filtered vector search exceptionally well, and runs as a simple single container for lean production deployments. [S1, S3]
+- Milvus is designed for large-scale enterprise workloads handling hundreds of millions to billions of vectors and uses a Kubernetes-native distributed microservices architecture. [S1, S3]
+
+Sources:
+- [S1] "Chroma vs Qdrant vs Milvus: Which Vector Database Fits Your Stage": https://resources.rework.com/tools/ai-data-infra/chroma-vs-qdrant-vs-milvus
+- [S3] Qdrant vs Milvus: Which Vector DB for Production RAG?: https://www.kunalganglani.com/blog/milvus-vs-qdrant
+
+Limitations:
+- Fetch failed for https://aimultiple.com/open-source-vector-databases: Simulated page timeout.
+- Simulated page timeout occurred for an additional comparison source (aimultiple.com).
+- Detailed pricing and performance numbers depend on specific infrastructure and cloud provider configurations.
+
+Suggested next steps:
+- Assess the expected vector volume and growth trajectory for the RAG pipeline over the next 1-3 years.
+- Benchmark filtered search performance and memory usage using a representative subset of production data on both Qdrant and Milvus.
+- Evaluate internal team expertise regarding operational overhead, such as Kubernetes management versus single-container self-hosting.

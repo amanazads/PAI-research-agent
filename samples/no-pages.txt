@@ -1,0 +1,38 @@
+Demo mode: no-pages
+Goal: To compare the performance, scalability, and developer experience of three open-source vector databases (such as Milvus, Qdrant, and Chroma) to determine the best fit for a RAG startup.
+Search: Milvus vs Qdrant vs Chroma vector database benchmark comparison RAG
+  4 results
+Search: open source vector database performance metrics GitHub repository
+  4 results
+Search: official documentation vector database scaling production RAG startup
+  4 results
+Selected: Best Vector Databases 2026: Pinecone vs Weaviate vs Milvus (https://iternal.ai/insights/best-vector-databases-2026)
+Fetch failed for https://iternal.ai/insights/best-vector-databases-2026: Simulated page timeout.
+Selected: Vector Database Sizing and Selection Calculator (https://aimultiple.com/vector-database-for-rag)
+Fetch failed for https://aimultiple.com/vector-database-for-rag: Simulated page timeout.
+Selected: a side-by-side comparison : r/vectordatabase (https://www.reddit.com/r/vectordatabase/comments/170j6zd/my_strategy_for_picking_a_vector_database_a)
+Fetch failed for https://www.reddit.com/r/vectordatabase/comments/170j6zd/my_strategy_for_picking_a_vector_database_a: Simulated page timeout.
+Selected: Vector Database Development for Production RAG | NerdHeadz (https://www.nerdheadz.com/technologies/vector-database-development)
+Fetch failed for https://www.nerdheadz.com/technologies/vector-database-development: Simulated page timeout.
+
+Question: Compare three open-source vector databases for a RAG startup
+
+Short answer: I couldn't verify an answer from the available sources.
+
+Confidence: low
+
+Key findings:
+None verified.
+
+Sources:
+None cited.
+
+Limitations:
+- Fetch failed for https://iternal.ai/insights/best-vector-databases-2026: Simulated page timeout.
+- Fetch failed for https://aimultiple.com/vector-database-for-rag: Simulated page timeout.
+- Fetch failed for https://www.reddit.com/r/vectordatabase/comments/170j6zd/my_strategy_for_picking_a_vector_database_a: Simulated page timeout.
+- Fetch failed for https://www.nerdheadz.com/technologies/vector-database-development: Simulated page timeout.
+- No selected source yielded usable page text.
+
+Suggested next steps:
+- Try a narrower research question.
